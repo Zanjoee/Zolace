@@ -19,8 +19,8 @@ function chatbot(input) {
 
   // Zanjoe-specific questions
   } else if (input.includes("what is his favorite food") || input.includes("favorite food") || input.includes("what does he like to eat")) {
-    output = "Zanjoe's favorite food is aside from Tokwa't Baboy, he also likes Fried Chicker.";
-  } else if (input.includes("what is his favorite drink")) {
+    output = "Zanjoe's favorite food is Tokwa't Baboy a Filipino dish.";
+  } else if (input.includes("whats his favorite drink")) {
     output = "Zanjoe's favorite drink is coffee.";
   } else if (input.includes("what is his favorite movie genre")) {
     output = "Zanjoe likes movies with science fiction genres.";
